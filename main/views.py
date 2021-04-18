@@ -9,3 +9,6 @@ def test(request):
 
 def go(request):
     return render(request, 'go.html')
+
+def second(request):
+    return HttpResponse("test 2 page")
